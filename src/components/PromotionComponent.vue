@@ -4,7 +4,7 @@
   >
     <div class="w-[290px] h-[200px] pt-[65px] pl-[25px]">
       <p class="text-2xl font-semibold">{{ title }}</p>
-      <ButtonComponent :class="`${buttonColor} ${margin}`" />
+      <ButtonComponent :title="title" :class="`${buttonColor} ${margin}`" />
     </div>
     <div class="absolute bottom-0 right-0">
       <img :src="image" :class="`${width} ${height}`" />
